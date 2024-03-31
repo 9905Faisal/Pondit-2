@@ -1,0 +1,212 @@
+/* google fonts added */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Common code for all css*/
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #444444;
+    text-transform: uppercase;
+}
+.col-4{
+     width: 33.3333%;
+     float: left;
+     padding-right: 15px;
+     padding-left: 15px;
+ }
+
+h3{
+    font-size: 17px;
+    font-weight: bold;
+    color: #444444;
+}
+
+figure{
+    margin: 0;
+}
+
+/*Header starts*/
+#header{
+    background-color: #54e865;
+}
+
+header img{
+    float: left;
+    padding-bottom: 8px;
+}
+
+#header nav{
+    float: right;
+    margin-top: -70px;
+    padding-right: 5px;
+}
+#header li{
+     display: inline-block;
+     
+ }
+
+#header li > a{
+   text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h1{
+    font-style: italic;
+    font-size: 40px;
+    padding-top: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    color: white;
+}
+
+/* banner part starts */
+
+#banner .img-responsive{
+    width: 726px;
+    height: 520px;
+   float: right;
+  
+}
+
+#banner .sidetext h2{
+        color: #41cd52;
+        font-weight: normal;
+        text-transform: none;   
+        word-spacing: 0px; 
+        font-size: 60px;
+        padding-left: 80px;
+        padding-top: 150px;
+}
+
+#banner .secondsidetext{
+    word-spacing: 0px; 
+    font-size: 65px;
+    padding-left: 80px;
+    padding-bottom: 50px;
+    
+}
+
+.secondsidetext h2{
+    font-size: 58px;
+    font-weight: normal;
+    text-transform: none;  
+}
+.row h2{margin: 0px;}
+
+#banner .thirdsidetext p{
+    padding-left: 85px;
+    font-size: 18px;
+    margin-top: -30px;
+    color: gray;
+    
+    
+}
+
+/* service part starts */
+
+#service .firsttext{
+    font-size: 25px;
+    padding: 40px;
+    padding-top: 80px;
+}
+#service .img-responsive{
+    height: 40px;
+    width: 40px;
+}
+
+#service .servicefirstimg figure{
+    background-color: white;
+}
+
+#service .servicesecondimg figure{
+    background-color: white;
+    margin-top: 30px; 
+}
+
+/* second banner part starts */
+
+#secondbanner .img-responsive{
+    width: 100%;
+    height: 500px;
+   float: right;
+   margin-top: 80px;
+}
+
+#secondbanner .bannersidetext p{
+    font-size: 20px;
+    color: white;
+    padding: 40px;
+    padding-top: 80px;
+    position: relative;
+}
+
+/* footer part starts */
+
+#footer .img-responsive{
+    width: 550px;
+    height: 400px;
+   float: right;
+  margin-right: 50px;
+}
+
+#footer .footersidetext p{
+        color: black;
+        font-weight: normal;
+        text-transform: none;   
+        word-spacing: 0px; 
+        font-size: 30px;
+        padding-left: 70px;
+        padding-top: 150px;
+}
+
+#footer .footersecondsidetext{
+    word-spacing: 0px; 
+    font-size: 65px;
+    padding-left: 80px;
+    padding-bottom: 50px;
+    
+}
+
+#footer .footersecondsidetext p{
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: none; 
+    padding-left: 0px;
+    color: grey; 
+}
+.row h2{margin: 0px;}
+
+
